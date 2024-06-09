@@ -132,7 +132,7 @@ WHERE percentage_laid_off= 'NULL'
 
 --3-Null or blank values
 
---Asign AirBNB A Industry  
+--Assign AirBNB An Industry  
 SELECT l1.company,l1.location, l1.industry,l2.industry
 FROM layoff_test1 l1
 JOIN layoff_test1 l2
